@@ -2,9 +2,9 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open('champak-cache').then(cache => {
             return cache.addAll([
-                '/champak/',
-                '/champak/index.html',
-                '/champak/manifest.json',
+                '/champakpwa/',
+                '/champakpwa/index.html',
+                '/champakpwa/manifest.json',
                 // Add more files you want to cache
             ]);
         })
