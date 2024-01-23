@@ -1,0 +1,35 @@
+{
+    "packageId": "com.varanasisoftwarejunction.champakpwa",
+    "hostName": "varanasi-software-junction.github.io",
+    "launchUrl": "/champakpwa/",
+    "name": "Champak PWA",
+    "themeColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "navigationColor": "#ffffff",
+    "navigationColorDark": "#000000",
+    "startUrl": "/champakpwa/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "chromeOS": {
+      "fingerprints": []
+    },
+    "intentFilters": [
+      {
+        "action": "VIEW",
+        "autoVerify": true,
+        "data": [
+          {
+            "scheme": "https"
+          },
+          {
+            "host": "varanasi-software-junction.github.io",
+            "pathPattern": "/champakpwa/.*"
+          }
+        ],
+        "category": "BROWSABLE",
+        "targetUrl": "/champakpwa/"
+      }
+    ],
+    "iconUrl": "https://varanasi-software-junction.github.io/champakpwa/icon.png"
+  }
+  
