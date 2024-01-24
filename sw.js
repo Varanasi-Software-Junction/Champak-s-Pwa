@@ -4,7 +4,7 @@ self.addEventListener('install', event => {
             return cache.addAll([
                 '/champakpwa/',
                 '/champakpwa/index.html',
-                '/champakpwa/manifest.json',
+                '/champakpwa/manifest.js',
                 // Add more files you want to cache
             ]);
         })
